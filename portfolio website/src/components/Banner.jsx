@@ -1,7 +1,6 @@
 import 'animate.css';
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import headerImg from "../assets/img/header-img.svg";
 
@@ -49,16 +48,15 @@ export default function Banner() {
 
     return (
         <section className="banner" id="home">
-            <Container>
+            <Container fluid>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi! I'm Huzaifa a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                                    <h1>{`Hi! I'm Huzaifa,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer"]'><span className="wrap">{text}</span></span></h1>
+                                    <p>Hi, I’m a full-stack developer specializing in the MERN stack. I love building web applications that are not only functional but also user-friendly and visually appealing. I’m skilled in React.js, Node.js, MongoDB, and Express, and I’m currently diving into Next.js to expand my expertise. My goal is to create efficient, scalable solutions while continuously learning and improving </p>
                                 </div>}
                         </TrackVisibility>
                     </Col>
