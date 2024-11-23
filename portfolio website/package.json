@@ -1,3 +1,8 @@
+"scripts":{
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview"
+}
 {
   "name": "portfolio-website",
   "private": true,
