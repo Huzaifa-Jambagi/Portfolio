@@ -1,19 +1,15 @@
 import {
-  css,
+  backend,
   fiverr,
-  git,
-  html,
   java,
   javascript,
   mongodb,
   mysql,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   threejs,
-  typescript,
-  vscode
+  web
 } from "../assets";
 import cozyplacePng from "../assets/cozyplace.png";
 import portfolioPng from "../assets/Portfolio.png";
@@ -40,14 +36,7 @@ import portfolioPng from "../assets/Portfolio.png";
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+
     {
       name: "JavaScript",
       icon: javascript,
@@ -60,21 +49,10 @@ import portfolioPng from "../assets/Portfolio.png";
         name: "MySQL",
         icon: mysql,
       },
-      {
-        name: "VSCode",
-        icon: vscode,
-      },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -92,12 +70,19 @@ import portfolioPng from "../assets/Portfolio.png";
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
   ];
+  const services = [
+    {
+      title: "Web Developer",
+      icon: web,
+    },
   
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+  
+  ];
   const experiences = [
   
     {
@@ -166,4 +151,5 @@ import portfolioPng from "../assets/Portfolio.png";
     },
   ];
   
-  export { experiences, projects, technologies };
+  export { experiences, projects, services, technologies };
+
