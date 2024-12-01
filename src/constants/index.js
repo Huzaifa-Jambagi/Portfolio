@@ -77,11 +77,6 @@ import portfolioPng from "../assets/Portfolio.png";
       icon: web,
     },
   
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-  
   ];
   const experiences = [
   
@@ -147,7 +142,7 @@ import portfolioPng from "../assets/Portfolio.png";
         },
       ],
       image: portfolioPng,
-      source_code_link: "https://github.com/Huzaifa-Jambagi/Travel_Website_Mern_project/tree/master",
+      source_code_link: "https://github.com/Huzaifa-Jambagi/Portfolio.git",
     },
   ];
   
