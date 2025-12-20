@@ -16,9 +16,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-     I’m a software developer who’s passionate about crafting clean, efficient code.
-     I am proficient in Node.js, React.js, MongoDB, and Java DSA, 
-     and I have been working on a range of MERN stack projects focused on building scalable web solutions      </motion.p>
+     I’m a software developer and I mostly work with Node.js, React, and MongoDB,
+       </motion.p>
     </>
   );
 };
