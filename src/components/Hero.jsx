@@ -67,8 +67,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Huzaifa</span>           
           </h1>           
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>             
-            A passionate MERN stack developer skilled in <br className='sm:block hidden' />             
-            building end-to-end full-stack applications           
+           Full-stack MERN developer working with <br className='sm:block hidden' />   
+            Node.js, React, and MongoDB              
           </p>         
         </div>       
       </div>              
